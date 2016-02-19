@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react",
+    "async-to-bluebird"
+  ],
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
+}
