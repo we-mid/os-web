@@ -21,6 +21,8 @@ app.use = x => _use.call(app, convert(x))
 
 router.get('/', async (ctx) => {
   ctx.type = 'html'
+
+  // todo: fs cache
   ctx.body = await read(resolve(rootDir, 'src/web/index.html'))
 })
 
